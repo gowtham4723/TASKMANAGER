@@ -3,6 +3,8 @@
 ## Overview
 TaskManager is a comprehensive web application designed for efficient task management. It was developed using modern front-end technologies, containerized for portability, and deployed using Kubernetes for scalability and reliability.
 
+![TaskManager Interface](./images/localhost.png)
+
 ## Technologies Used
 
 ### Frontend:
@@ -62,7 +64,7 @@ TaskManager is a comprehensive web application designed for efficient task manag
    docker build -t taskmanager:latest .
    ```
 3. Docker Image Build:
-   ![Docker Image Build](./images/docker_image_build.png)
+   ![Docker Image Build](./images/dockerimagebuild.png)
 4. Tag and push the Docker image to Docker Hub:
    ```bash
    docker tag taskmanager:latest your-dockerhub-username/taskmanager:latest
@@ -125,7 +127,7 @@ TaskManager is a comprehensive web application designed for efficient task manag
    kubectl apply -f taskmanager-service.yaml
    ```
 2. Kubernetes Apply Commands:
-   ![Kubernetes Apply](./images/k8s_apply.png)
+   ![Kubernetes Apply](./images/k8s.png)
 3. Verify the resources:
    ```bash
    kubectl get all
@@ -149,7 +151,7 @@ TaskManager is a comprehensive web application designed for efficient task manag
 
 #### 5. Application Interface
 - TaskManager Interface:
-  ![TaskManager Interface](./images/app_interface.png)
+  ![TaskManager Interface](./images/localhost.png)
 
 ## Usage
 1. Launch the application in your browser.
