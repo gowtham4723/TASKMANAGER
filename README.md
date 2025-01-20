@@ -126,7 +126,7 @@ TaskManager is a comprehensive web application designed for efficient task manag
    kubectl apply -f taskmanager-deployment.yaml
    kubectl apply -f taskmanager-service.yaml
    ```
-2. Kubernetes Apply Commands:
+2. Kubernetes Commands:
    ![Kubernetes Apply](./images/k8s.png)
 3. Verify the resources:
    ```bash
